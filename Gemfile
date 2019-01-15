@@ -38,6 +38,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use rails-controllers for assert_template in testing
 gem 'rails-controller-testing'
 
+# For secure password hashing
+gem 'bcrypt'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
