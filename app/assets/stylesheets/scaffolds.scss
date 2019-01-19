@@ -57,11 +57,11 @@ div {
 }
 
 #error_explanation {
-  width: 450px;
-  border: 2px solid red;
+  width: 100%;
+  border: none;
   padding: 7px 7px 0;
   margin-bottom: 20px;
-  background-color: #f0f0f0;
+  
 
   h2 {
     text-align: left;
@@ -75,7 +75,9 @@ div {
 
   ul li {
     font-size: 12px;
-    list-style: square;
+    list-style: disc;
+    padding: 0;
+    margin: auto;
   }
 }
 
